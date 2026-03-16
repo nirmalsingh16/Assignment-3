@@ -63,3 +63,17 @@
     top: 20px;
   }
 }
+
+@media (max-width: 1400px) {
+  .heroCotent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .heroText {
+    width: 80%;
+    height: auto;
+    left: 10px;
+    top: 20px;
+  }
+}
