@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --khaki-color: #b88e2f;
+  --light-cream: #fff3e3;
+  --light-purle-blue: #f4f5f7;
+  --light-red: #e97171;
+  --light-blur-black: #3a3a3a;
+  --light-green: #2ec1ac;
+  --color-gray: #616161;
+  --beautiful-bg-cream: #fcf8f3;
+}
+
+.navbarSection {
+  width: 100vw;
+  padding: 30px 55px;
+}
+
+.navbarContent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbarLogo {
+  display: flex;
+  align-items: center;
+}
+
+.navbarLogo img {
+  width: 50px;
+  height: 32px;
+  opacity: 1;
+}
+
+.navbarPages {
+  margin: auto;
+}
+
+.navbarPages ul {
+  display: flex;
+  gap: 75px;
+  align-items: center;
+}
+
+.navbarPages ul li {
+  list-style: none;
+}
+
+.navbarFeatures {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.mobileIcon {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .navbarContent {
+    justify-content: space-between;
+  }
+  .navbarPages,
+  .navbarFeatures {
+    display: none;
+  }
+  .mobileIcon {
+    display: block;
+  }
+}
