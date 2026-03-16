@@ -19,12 +19,23 @@
 
 .navbarSection {
   width: 100vw;
-  padding: 30px 55px;
+  padding: 25px 50px;
+  z-index: 100;
+  position: fixed;
+  background-color: #f4f5f7;
+  transition: 0.3s;
+}
+
+.navbarSection.scrolled {
+  background: black;
+  background-color: var(--khaki-color);
 }
 
 .navbarContent {
   width: 100%;
   display: flex;
+  top: 0px;
+  left: 0px;
   justify-content: center;
 }
 
